@@ -6,8 +6,8 @@ import requests
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('7Gi4ilrsvvDH89k6JtNgqTSaZpQMm/+R+ugBsR+Hj3bKq5/nVzZuiXm7UZA5V/x/D8Xj3wpKDE1+wAzQ+gTjFOgHvEAu5PdgsxH8bkN5ZabnlLci2woiPXSu3VkU/TYoDtyKwcCfSrlVnIcZ6um1IgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('1ce4e471fa2a78266e552f20d7b9c5d8')
+line_bot_api = LineBotApi('XXXXXXXX')
+handler = WebhookHandler('XXXXXXXX')
 
 
 @app.route('/getimage', methods=['GET'])
